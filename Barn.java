@@ -30,7 +30,7 @@ public class Barn {
       else { // chicken
         System.out.print("Enter egg color for chicken: ");
         String color = input.nextLine();
-        Chicken chicken = new Chicken("type",color);
+        Chicken chicken = new Chicken("chicken",color);
         chickens.add(chicken);
       }
     } 
